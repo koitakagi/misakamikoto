@@ -9,8 +9,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class indexController {
+
+
     @RequestMapping("/hello")
     public String index(){
-        return "forward:index.html";
+        return "dashboard";
     }
+
 }
